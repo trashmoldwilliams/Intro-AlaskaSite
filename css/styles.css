@@ -84,3 +84,41 @@
   padding: 20px;
 
 }
+
+.fishing {
+  background-image: url('../images/fish.jpg');
+}
+
+.hiking {
+  background-image: url('../images/hidking.jpg');
+}
+
+.wildlife {
+  background-image: url('../images/viewing.jpg');
+}
+
+.transbox {
+    background-color: #ffffff;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    padding: 10px;
+}
+
+.transbox p, h2, h3{
+  margin: 5%;
+  font-weight: bold;
+  color: #383838;
+  text-shadow: 1px 1px black;
+}
+
+.fishing {
+  background-image: url(../images/fish.jpg);
+}
+
+.fishing {
+  background-image: url(../images/fish.jpg);
+}
+
+.activities  h1 , h4 {
+  padding: 15px;
+}
