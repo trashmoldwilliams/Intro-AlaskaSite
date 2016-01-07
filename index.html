@@ -41,9 +41,9 @@
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="dLabel">
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
+                <li><a href="#" id="fishing">Fishing</a></li>
+                <li><a href="#" id="hiking">Hiking</a></li>
+                <li><a href="#" id="wildlife">Wildlife</a></li>
               </ul>
             </li>
             <li><a href="#" type="button" data-target=".modal" data-toggle="modal">Contact</a></li>
@@ -197,6 +197,13 @@
 
     </div>
 
+    <footer class="footer">
+      <h4> Will Johnson &amp; Neil Larion (c) 2016 </h4>
+
+      <a href="#" type="button" data-target=".modal" data-toggle="modal">Contact</a>
+
+    </footer>
+
 
 
 
@@ -204,5 +211,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $("#fishing").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".fishing").offset().top
+        }, 2000);
+      });
+
+      $("#hiking").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".hiking").offset().top
+        }, 2000);
+      });
+
+      $("#wildlife").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".wildlife").offset().top
+        }, 2000);
+      });
+    </script>
   </body>
 </html>

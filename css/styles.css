@@ -50,11 +50,17 @@
 
 }
 
-
 .carousel h1 {
   position: fixed;
   margin-left: 25%;
   margin-right: auto;
+}
+
+.footer {
+  border-top: 2px solid black;
+  padding: 4px;
+  text-align: center;
+  margin-top: 5px;
 
 }
 
