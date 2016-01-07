@@ -1,0 +1,17 @@
+.jumbotron {
+  text-align: center;
+  padding: 30px;
+  margin: 40px 10px 10px 10px;
+}
+.carousel-indicators .active {
+  background-color: black;
+
+}
+.carousel-indicators li {
+  border-color: black;
+
+}
+
+.container {
+
+}
