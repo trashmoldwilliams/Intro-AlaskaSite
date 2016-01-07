@@ -1,7 +1,7 @@
 .jumbotron {
   text-align: center;
-  padding: 30px;
-  margin: 70px 10px 10px 10px;
+  padding: 0px;
+  margin: 70px 0px 0px 0px;
   border-radius: 10px;
 }
 .carousel-indicators .active {
@@ -34,6 +34,35 @@
 
 }
 
-.carousel-control {
+
+.row p {
+  text-indent: 8px;
+  padding: 8px;
+}
+
+.comeVisitItem {
   border-radius: 10px;
+
+}
+
+.item img{
+  width:100%;
+
+}
+
+
+.carousel h1 {
+  position: fixed;
+  margin-left: 25%;
+  margin-right: auto;
+
+
+
+}
+
+.item {
+ height: 400px;
+}
+.carousel-inner {
+  /*overflow: visible;*/
 }
