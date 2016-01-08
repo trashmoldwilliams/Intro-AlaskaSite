@@ -64,6 +64,7 @@
 
 }
 
+
 .item {
  height: 400px;
 }
@@ -86,8 +87,10 @@
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   display: block;
-  padding: 20px;
+  box-shadow: 5px 5px 5px #444;
+  border-radius: 10px;
 
 }
 
